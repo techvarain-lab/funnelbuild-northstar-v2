@@ -1,0 +1,407 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title class="">NORTH STAR EXECUTIVE | Executive Consulting &amp; Leadership Architecture</title>
+<!-- Tailwind CSS v3 CDN with forms & container queries -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Google Fonts: Inter -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            mistral: {
+              dark: '#08080A',
+              card: '#111215',
+              border: '#222328',
+              accent: '#E5E7EB',
+              muted: '#9CA3AF'
+            }
+          }
+        }
+      }
+    }
+  </script>
+<!-- Typography and Custom Layout Styles -->
+<style data-purpose="typography">
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      letter-spacing: -0.015em;
+    }
+    .watermark-text {
+      user-select: none;
+      pointer-events: none;
+      font-size: clamp(6rem, 15vw, 13rem);
+      line-height: 0.8;
+      letter-spacing: -0.04em;
+    }
+  </style>
+<!-- Hero Background Overlay Styles -->
+<style data-purpose="hero-styling">
+    .hero-bg-overlay {
+      background: linear-gradient(180deg, rgba(8,8,10,0.45) 0%, rgba(8,8,10,0.85) 65%, #08080A 100%);
+    }
+  </style>
+</head>
+<body class="bg-mistral-dark text-white antialiased selection:bg-white selection:text-black">
+<!-- BEGIN: MainHeader -->
+<header class="fixed top-0 left-0 right-0 z-50 bg-mistral-dark/80 backdrop-blur-md border-b border-white/10 transition-all duration-300">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<!-- Brand Logo -->
+<a class="flex items-center space-x-2 text-xl font-bold tracking-widest uppercase" href="#">
+<span class="text-white tracking-[0.22em]">NORTH STAR</span>
+<span class="text-xs font-light text-zinc-400 tracking-[0.25em] pl-1 border-l border-zinc-700">EXECUTIVE</span>
+</a>
+<!-- Desktop Navigation Links -->
+<nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-zinc-300 tracking-wide">
+<a class="hover:text-white transition-colors duration-150" href="#services">Services</a>
+<a class="hover:text-white transition-colors duration-150" href="#overview">Program Overview</a>
+<a class="hover:text-white transition-colors duration-150" href="#framework">Curriculum</a>
+<a class="hover:text-white transition-colors duration-150" href="#criteria">Selection Criteria</a>
+</nav>
+<!-- Action Button -->
+<div class="flex items-center">
+<a class="text-xs md:text-sm font-medium tracking-wide uppercase px-5 py-2.5 rounded border border-white/25 hover:border-white hover:bg-white hover:text-black transition-all duration-200" href="#apply">
+          Apply for Strategy Call
+        </a>
+</div>
+</div>
+</header>
+<!-- END: MainHeader -->
+<main>
+<!-- BEGIN: HeroSection -->
+<section class="relative min-h-[92vh] flex items-center justify-center pt-28 pb-20 px-6 overflow-hidden">
+<!-- Background Image with High-End Corporate Mood -->
+<div class="absolute inset-0 z-0">
+<img alt="Professional executive portrait of a business advisor in modern luxury office" class="w-full h-full object-cover object-top opacity-30 md:opacity-40 filter grayscale contrast-125" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwqdQMEA9H5Nwxe7w1FHfoT94V0iHg1us3xOsGQq5kAeft42qf13DaRRpJhL1_3WS3FVaRms2avP26SqwV2OOXvzNakatU-IkYU2-LNVe-R3C-91NG1Ovk3DkQto5kWynG2_JefivlI7gKSCIEVOZ4Wv_dGPa858qdQ7cKND4NNnamJ1r-tq5PsTM6lt4BZK-Oxn7C6ulsBRMcuMB64J4stp014ckkBAuchObsMjcsd8HnVtKySSaerw">
+<div class="hero-bg-overlay absolute inset-0"></div>
+</div>
+<!-- Hero Content -->
+<div class="relative z-10 max-w-4xl mx-auto text-center flex flex-col items-center">
+<!-- Qualifier Badge / Pill -->
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/15 text-xs md:text-sm text-zinc-300 font-normal mb-8">
+<span class="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+<span class=""><strong class="text-white font-medium">Who it's for:</strong> Business owners making $10k+ a month stuck doing everything themselves.</span>
+</div>
+<!-- Main Headline -->
+<h1 class="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-white leading-[1.08] mb-6">
+          Stop being the bottleneck <br class="hidden sm:inline">in your own business.
+        </h1>
+<!-- Subheadline -->
+<p class="max-w-2xl text-base sm:text-xl text-zinc-300 font-light leading-relaxed mb-10 text-balance">
+          A 12-week one-on-one coaching program for owners and managers who want a clear growth plan, a team that runs without them, and their weekends back.
+        </p>
+<!-- CTA Action Buttons -->
+<div class="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto justify-center mb-4">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white text-black font-semibold px-8 py-4 rounded text-sm tracking-wide hover:bg-zinc-200 transition-all duration-200 group shadow-lg shadow-white/5" href="#apply">
+<span class="">Apply for Your Strategy Call</span>
+<span class="group-hover:translate-x-1 transition-transform duration-150">→</span>
+</a>
+<a class="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 rounded text-sm font-semibold tracking-wide border border-zinc-700 bg-black/40 hover:bg-zinc-800 text-zinc-200 hover:text-white transition-all duration-200" href="#framework">
+            Explore Framework
+          </a>
+</div>
+<!-- Guarantee / Microcopy -->
+<p class="text-xs text-zinc-400 font-light">
+          Spots are strictly limited. Applications are reviewed within 24 hours.
+        </p>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: ClientLogosBar -->
+<section class="bg-white py-10 px-6 border-b border-zinc-200 overflow-hidden">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 opacity-85">
+<span class="text-xs uppercase tracking-widest text-zinc-500 font-semibold md:border-r md:border-zinc-300 md:pr-8">
+          Recognized by Leaders At
+        </span>
+<div class="flex flex-wrap items-center justify-center gap-8 md:gap-14 text-zinc-800 font-bold tracking-tighter">
+<span class="text-lg tracking-normal font-black uppercase text-zinc-900">FORBES</span>
+<span class="text-lg tracking-tight font-serif italic font-bold">Bloomberg</span>
+<span class="text-lg tracking-tighter font-serif font-black">THE WALL STREET JOURNAL</span>
+<span class="text-lg tracking-tight font-sans uppercase font-black">ENTREPRENEUR</span>
+<span class="text-lg tracking-wide font-mono font-bold uppercase text-zinc-700">FAST COMPANY</span>
+<span class="text-lg tracking-tighter font-extrabold uppercase text-zinc-800">TECHSTARS</span>
+</div>
+</div>
+</section>
+<!-- END: ClientLogosBar -->
+<!-- BEGIN: OverviewStatsSection -->
+<section class="bg-white text-zinc-900 py-24 md:py-32 px-6 relative overflow-hidden" id="overview">
+<!-- Big Subdued Watermark Backdrop -->
+<div class="watermark-text absolute left-6 -top-4 font-black text-zinc-100 opacity-80 pointer-events-none select-none z-0">
+        ABOUT
+      </div>
+<div class="max-w-7xl mx-auto relative z-10">
+<!-- Section Narrative Lead -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 mb-24 items-start">
+<div class="lg:col-span-4">
+<span class="text-xs font-bold uppercase tracking-widest text-zinc-500 block mb-2">Program Thesis</span>
+<h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-zinc-900">
+              Transforming Operators into Executive Leaders.
+            </h2>
+</div>
+<div class="lg:col-span-8">
+<p class="text-xl sm:text-2xl font-normal leading-relaxed text-zinc-800 max-w-3xl">
+              We are a dedicated advisory firm helping business owners break free from daily operational fires, build autonomous management systems, and achieve durable commercial scale without sacrificing personal freedom.
+            </p>
+</div>
+</div>
+<!-- 4 Massive Metric Callouts (Identical pattern to reference layout) -->
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 pt-12 border-t border-zinc-200">
+<!-- Metric 1 -->
+<div class="flex flex-col">
+<div class="text-5xl sm:text-7xl font-bold tracking-tight text-zinc-950 mb-3">
+              12
+            </div>
+<div class="text-sm sm:text-base font-semibold text-zinc-900 mb-1">
+              Weeks Duration
+            </div>
+<div class="text-xs sm:text-sm text-zinc-500 font-normal leading-snug">
+              Intensive Executive Transformation
+            </div>
+</div>
+<!-- Metric 2 -->
+<div class="flex flex-col">
+<div class="text-5xl sm:text-7xl font-bold tracking-tight text-zinc-950 mb-3">
+              6
+            </div>
+<div class="text-sm sm:text-base font-semibold text-zinc-900 mb-1">
+              Bi-Weekly Deep Dives
+            </div>
+<div class="text-xs sm:text-sm text-zinc-500 font-normal leading-snug">
+              1-on-1 Dedicated Strategy Sessions
+            </div>
+</div>
+<!-- Metric 3 -->
+<div class="flex flex-col">
+<div class="text-5xl sm:text-7xl font-bold tracking-tight text-zinc-950 mb-3">
+              20+
+            </div>
+<div class="text-sm sm:text-base font-semibold text-zinc-900 mb-1">
+              Hours Recaptured
+            </div>
+<div class="text-xs sm:text-sm text-zinc-500 font-normal leading-snug">
+              Per Week for Business Owners
+            </div>
+</div>
+<!-- Metric 4 -->
+<div class="flex flex-col">
+<div class="text-5xl sm:text-7xl font-bold tracking-tight text-zinc-950 mb-3">
+              100%
+            </div>
+<div class="text-sm sm:text-base font-semibold text-zinc-900 mb-1">
+              Confidentiality
+            </div>
+<div class="text-xs sm:text-sm text-zinc-500 font-normal leading-snug">
+              NDA-Guaranteed Advisory
+            </div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: OverviewStatsSection -->
+<!-- BEGIN: FrameworkCurriculumSection -->
+<section class="bg-mistral-dark text-white py-24 md:py-32 px-6 border-t border-white/10" id="framework">
+<div class="max-w-7xl mx-auto">
+<!-- Section Header -->
+<div class="max-w-3xl mb-16">
+<span class="text-xs font-semibold tracking-widest uppercase text-zinc-400 block mb-3">
+            What You Receive
+          </span>
+<h2 class="text-3xl sm:text-5xl font-bold tracking-tight text-white mb-6">
+            Engineered to eliminate bottleneck friction.
+          </h2>
+<p class="text-zinc-400 text-lg">
+            A battle-tested consulting infrastructure tailored to systematically decouple your time from operational throughput.
+          </p>
+</div>
+<!-- 4 Grid Deliverables Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+<!-- Card 1 -->
+<div class="p-8 sm:p-10 rounded-xl bg-mistral-card border border-mistral-border hover:border-zinc-500/50 transition-all duration-300">
+<div class="text-xs font-mono font-semibold text-zinc-400 mb-6">PILLAR 01</div>
+<h3 class="text-xl sm:text-2xl font-bold text-white mb-4">
+              6 Private Coaching Sessions, One Every Two Weeks
+            </h3>
+<p class="text-zinc-400 leading-relaxed text-sm sm:text-base">
+              Tactical deep-dives designed to dismantle operational paralysis, reconfigure delegation bottlenecks, and install hardened leadership governance across your leadership team.
+            </p>
+</div>
+<!-- Card 2 -->
+<div class="p-8 sm:p-10 rounded-xl bg-mistral-card border border-mistral-border hover:border-zinc-500/50 transition-all duration-300">
+<div class="text-xs font-mono font-semibold text-zinc-400 mb-6">PILLAR 02</div>
+<h3 class="text-xl sm:text-2xl font-bold text-white mb-4">
+              Weekly Worksheets &amp; A 90-Day Plan in Your Member Area
+            </h3>
+<p class="text-zinc-400 leading-relaxed text-sm sm:text-base">
+              Standard operating procedures (SOPs), proprietary delegation matrices, and a bespoke execution roadmap giving you total visibility over department heads.
+            </p>
+</div>
+<!-- Card 3 -->
+<div class="p-8 sm:p-10 rounded-xl bg-mistral-card border border-mistral-border hover:border-zinc-500/50 transition-all duration-300">
+<div class="text-xs font-mono font-semibold text-zinc-400 mb-6">PILLAR 03</div>
+<h3 class="text-xl sm:text-2xl font-bold text-white mb-4">
+              Message Support Between Sessions
+            </h3>
+<p class="text-zinc-400 leading-relaxed text-sm sm:text-base">
+              Direct priority asynchronous advisory. When key personnel crises, pricing negotiations, or strategic obstacles appear mid-week, you get verified senior counsel within hours.
+            </p>
+</div>
+<!-- Card 4 -->
+<div class="p-8 sm:p-10 rounded-xl bg-mistral-card border border-mistral-border hover:border-zinc-500/50 transition-all duration-300">
+<div class="text-xs font-mono font-semibold text-zinc-400 mb-6">PILLAR 04</div>
+<h3 class="text-xl sm:text-2xl font-bold text-white mb-4">
+              A Final Review to Set Your Next 90 Days
+            </h3>
+<p class="text-zinc-400 leading-relaxed text-sm sm:text-base">
+              A comprehensive milestone audit, executive stress test, and sustainable autonomous playbook ensuring your enterprise scales profitably without requiring your physical presence.
+            </p>
+</div>
+</div>
+</div>
+</section>
+<!-- END: FrameworkCurriculumSection -->
+<!-- BEGIN: SelectionCriteriaSection -->
+<section class="py-24 px-6 bg-zinc-950 border-t border-white/10" id="criteria">
+<div class="max-w-7xl mx-auto">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="text-xs font-semibold tracking-widest uppercase text-zinc-400 block mb-2">Cohort Curation</span>
+<h2 class="text-3xl sm:text-4xl font-bold tracking-tight text-white mb-4">Selection Criteria</h2>
+<p class="text-zinc-400 text-sm sm:text-base">We strictly enforce partner alignment to guarantee high-impact execution.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Qualified Box -->
+<div class="p-8 rounded-xl bg-zinc-900/60 border border-emerald-500/30">
+<div class="flex items-center gap-3 mb-6">
+<span class="flex items-center justify-center w-8 h-8 rounded-full bg-emerald-500/20 text-emerald-400 font-bold text-base">✓</span>
+<h3 class="text-xl font-bold text-white">This Is For You If:</h3>
+</div>
+<ul class="space-y-4 text-sm text-zinc-300">
+<li class="flex items-start gap-3">
+<span class="text-emerald-400 font-bold">•</span>
+<span class="">You own or manage an active business generating at least <strong>$10,000+ monthly revenue</strong>.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="text-emerald-400 font-bold">•</span>
+<span class="">You are working 50–70 hours per week and feel trapped as the sole decision-maker for everything.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="text-emerald-400 font-bold">•</span>
+<span class="">You are prepared to implement organizational playbooks and delegate operational authority.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="text-emerald-400 font-bold">•</span>
+<span class="">You want scalable systems and want your personal life and weekends back.</span>
+</li>
+</ul>
+</div>
+<!-- Disqualified Box -->
+<div class="p-8 rounded-xl bg-zinc-900/60 border border-rose-500/30">
+<div class="flex items-center gap-3 mb-6">
+<span class="flex items-center justify-center w-8 h-8 rounded-full bg-rose-500/20 text-rose-400 font-bold text-base">×</span>
+<h3 class="text-xl font-bold text-white">This Is NOT For You If:</h3>
+</div>
+<ul class="space-y-4 text-sm text-zinc-300">
+<li class="flex items-start gap-3">
+<span class="text-rose-400 font-bold">•</span>
+<span class="">You are an early idea-stage or pre-revenue venture without validated customer traction.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="text-rose-400 font-bold">•</span>
+<span class="">You are seeking "get-rich-quick" passive income hacks rather than enduring business architecture.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="text-rose-400 font-bold">•</span>
+<span class="">You are unwilling to relinquish control of day-to-day tasks or micromanage key staff members.</span>
+</li>
+<li class="flex items-start gap-3">
+<span class="text-rose-400 font-bold">•</span>
+<span class="">You cannot commit 2 focused hours per week to strategic recalibration.</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- END: SelectionCriteriaSection -->
+<!-- BEGIN: ApplicationSection -->
+<section class="py-24 md:py-32 px-6 bg-white text-zinc-900 border-t border-zinc-200 relative overflow-hidden" id="apply">
+<div class="max-w-3xl mx-auto">
+<!-- Header Text -->
+<div class="text-center mb-12">
+<span class="text-xs font-semibold uppercase tracking-widest text-zinc-500 block mb-2">Confidential Intake</span>
+<h2 class="text-3xl sm:text-5xl font-bold tracking-tight text-zinc-900 mb-4">
+            Apply for Your Strategy Call
+          </h2>
+<p class="text-zinc-600 text-sm sm:text-base max-w-xl mx-auto">
+            Complete this brief application to evaluate executive alignment. We review all responses within 24 hours.
+          </p>
+</div>
+<!-- GoHighLevel Embedded Form -->
+<!-- height:933px is the pre-init fallback; the embed script re-measures the
+     frame once loaded and ignores data-height for INLINE layouts. No
+     border-radius here on purpose: the script drives the wrapper radius from
+     the form's theme config in the GHL dashboard. -->
+<iframe
+    src="https://api.leadconnectorhq.com/widget/form/0WK8HRUwzbONlFcskuNp"
+    style="width:100%;height:933px;border:none;display:block"
+    id="inline-0WK8HRUwzbONlFcskuNp"
+    data-layout='{"id":"INLINE"}'
+    data-trigger-type="alwaysShow"
+    data-trigger-value=""
+    data-activation-type="alwaysActivated"
+    data-activation-value=""
+    data-deactivation-type="neverDeactivate"
+    data-deactivation-value=""
+    data-form-name="Northstar Application"
+    data-height="933"
+    data-layout-iframe-id="inline-0WK8HRUwzbONlFcskuNp"
+    data-form-id="0WK8HRUwzbONlFcskuNp"
+    data-cookie-consent="true"
+    data-cookie-consent-provider="auto"
+    title="Northstar Application"></iframe>
+<script src="https://link.msgsndr.com/js/form_embed.js"></script>
+</div>
+</section>
+<!-- END: ApplicationSection -->
+</main>
+<!-- BEGIN: MainFooter -->
+<footer class="bg-black text-zinc-400 py-16 px-6 border-t border-zinc-900">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
+<!-- Brand & Mission Summary -->
+<div>
+<div class="text-lg font-bold tracking-widest uppercase text-white mb-2">NORTH STAR EXECUTIVE</div>
+<p class="text-xs text-zinc-400 max-w-sm">
+          High-performance executive coaching for growth-stage business owners ready to remove themselves as the bottleneck.
+        </p>
+</div>
+<!-- Footer Links & Legal -->
+<div class="flex flex-col sm:flex-row items-start sm:items-center gap-6 sm:gap-10 text-xs">
+<a class="hover:text-white transition" href="#overview">Overview</a>
+<a class="hover:text-white transition" href="#framework">Curriculum</a>
+<a class="hover:text-white transition" href="#criteria">Selection</a>
+<a class="hover:text-white transition" href="#apply">Apply</a>
+<span class="text-zinc-400">© <span id="current-year" class=""></span> North Star Advisory Group. All rights reserved.</span>
+</div>
+</div>
+</footer>
+<!-- END: MainFooter -->
+<!-- Footer Year Script -->
+<script data-purpose="footer-year">
+    document.addEventListener('DOMContentLoaded', () => {
+      // Set current year in footer
+      const yearSpan = document.getElementById('current-year');
+      if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+      }
+    });
+  </script>
+
+
+</body></html>
